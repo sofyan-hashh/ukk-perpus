@@ -4,7 +4,7 @@
    </div>
    <br>
    <div class="col-md-6 mb-4 text-left">
-      <a href="?page=fungsi/tambah_ulasan" class="btn btn-primary">Pinjam Buku</a>
+      <a href="?page=fungsi/tambah_peminjaman" class="btn btn-primary">Pinjam Buku</a>
    </div>
    <div class="card-body">
       <div class="table-responsive">

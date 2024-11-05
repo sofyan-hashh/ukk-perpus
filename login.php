@@ -8,7 +8,7 @@ require 'fungsi/koneksi.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login ke Perpustakaan Digital</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="aset/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-light">
 
@@ -55,6 +55,6 @@ require 'fungsi/koneksi.php';
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-<script src="aset/js/login.js"></script>
+<script src="js/g.js"></script>
 </body>
 </html>
