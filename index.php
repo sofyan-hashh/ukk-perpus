@@ -15,7 +15,7 @@ if(! isset($_SESSION['user'])) {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Digital - Dashboard</title>
+    <title>Perpustakaan Digital</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -89,6 +89,13 @@ if(! isset($_SESSION['user'])) {
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-book"></i>
                     <span>Peminjaman</span>
+                </a>
+            </li>
+            <li class="nav-item <?php echo (isset($_GET['page']) && $_GET['page'] == 'pengembalian') ? 'active' : ''; ?>">
+                <a class="nav-link collapsed" href="?page=pengembalian"
+                    aria-expanded="true" aria-controls="collapseUtilities">
+                    <i class="fas fa-book"></i>
+                    <span>Pengembalian</span>
                 </a>
             </li>
             <?php
